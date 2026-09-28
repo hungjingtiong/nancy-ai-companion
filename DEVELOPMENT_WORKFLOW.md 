@@ -1,0 +1,32 @@
+# Nancy Development Workflow
+
+## Status
+**LOCKED — canonical project workflow**
+
+## Canonical Workflow
+**ChatGPT develops → User approves → Approved files go directly to GitHub → GitHub deploys the latest approved Nancy.**
+
+GitHub is Nancy's permanent engineering source of truth.
+
+## Locked Rules
+- No custom bridge is required.
+- Codex is optional and is not a dependency of Nancy development.
+- ChatGPT may design and modify Nancy's specifications, code, documentation, and assets.
+- Experimental work does not need to be committed. Once approved, changes may be committed immediately or grouped into a checkpoint.
+- GitHub stores the latest approved engineering state and Git history preserves earlier approved states.
+- Deployment follows the approved GitHub state.
+- If direct ChatGPT-to-GitHub writing is unavailable, GitHub Web upload is the fallback. This does not change the architecture or workflow.
+- Future automation may simplify transfer, testing, commits, or deployment, but must remain optional.
+
+## Working Rhythm
+**Design → Build → Test → Review → Approve → Commit → Deploy → Test again**
+
+## Mandatory References
+Before Nancy development, read this file.
+
+Before creating or modifying Nancy's face or expressions, also read:
+`docs/expression-engineering/NANCY_IDENTITY_LOCK.md`
+
+and use the locked Nancy Original Six visual reference.
+
+This workflow remains in force until the user explicitly approves a replacement workflow and the repository documentation is updated.
